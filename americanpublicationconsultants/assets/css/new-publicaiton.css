@@ -1,0 +1,226 @@
+.pub-ff {
+    padding: 20px 0;
+    background: url(../../images/jr/fourth-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pub-ff .heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pub-ff .heading h4 {
+    color: #252b50;
+    font-size: 39px;
+    margin-bottom: 0;
+    font-weight: 900;
+    margin-bottom: 15px;
+    line-height: 0.8;
+}
+
+.pub-ff .heading h4 span {
+    color: #cf1f2a;
+    font-size: 22px;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.pub-ff .img-jr {
+    box-shadow: 0 0 10px #0003;
+}
+
+.pub-ff .heading p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.pub-ff a {
+    color: #282828;
+}
+
+.pub-ff .journal-info {
+    margin-top: 20px;
+}
+
+.pub-ff .readmore-about {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.pub-ff .mm-content {
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    box-shadow: 0 0 10px #0000000f, 0 0 10px #cf1f2b12;
+    margin-bottom: 30px;
+}
+
+.pub-ff .mm-content h5 {
+    font-size: 24px;
+    color: #252b50;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif !important;
+}
+
+.pub-ff .mm-content p {
+    font-size: 15px;
+    line-height: 1.2;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif !important;
+    min-height: 110px;
+    height: 76px;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+
+/* .pub-ff .mm-content .links { */
+
+
+/* display: flex; */
+
+
+/* justify-content: space-between; */
+
+
+/* } */
+
+.pub-ff .mm-content .links a {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif !important;
+    color: #037ecb;
+}
+
+.pub-ff .mm-content .links a i {
+    font-size: 16px;
+    color: #cf1f2a;
+    margin-right: 3px;
+}
+
+.pub-ff .mm-content .links a:nth-child(2) {
+    margin-left: 5px;
+    padding-left: 5px;
+    border-left: 1px solid #0003;
+}
+
+.pub-ff .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.publication_main .top_form {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*.header-section .navbar .navbar-collapse .navbar-nav li a {*/
+/*    color: #282828 !important;*/
+/*    font-weight: 500;*/
+/*    font-size: 14px !important;*/
+/*    border: none;*/
+/*    line-height: 65px;*/
+/*    letter-spacing: -0.2px;*/
+/*}*/
+
+/*header a img {*/
+/*    width: 90%;*/
+/*    line-height: 55px;*/
+/*    padding: 10px 0;*/
+/*    image-rendering: pixelated;*/
+/*}*/
+
+/*.homePageThree .header-section .navbar {*/
+/*    background-color: #ffffff;*/
+/*    transition: 0.5s;*/
+/*}*/
+
+/*header .col-lg-10 {*/
+/*    position: unset;*/
+/*}*/
+
+/*.header-section {*/
+/*    position: sticky;*/
+/*    z-index: 999;*/
+/*    box-shadow: 0 0 10px #0003;*/
+/*}*/
+
+.pub-ff .heading p a {
+    margin-top: 15px;
+    display: block;
+}
+
+@media (max-width: 1152px) {
+    .pub-ff .mm-content p {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+    /*.header-section .navbar .navbar-collapse .navbar-nav li {*/
+    /*    margin-right: 15px;*/
+    /*}*/
+    /*.header-section .navbar .navbar-collapse .navbar-nav li a {*/
+    /*    font-size: 12px !important;*/
+    /*}*/
+    .top_form h4 .span1 {
+        font-size: 33px;
+    }
+    .pub-ff .journal-info {
+        margin-top: 40px;
+    }
+    .pub-ff .heading p {
+        font-size: 15px;
+    }
+    .pub-ff .heading p a {
+        margin-top: 15px;
+        display: block;
+    }
+}
+
+@media (max-width: 575px) {
+    .pub-ff .mm-content {
+        text-align: center;
+    }
+    .pub-ff .mm-content .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pub-ff .mm-content .img-jr {
+        margin-bottom: 20px;
+    }
+    .top_form h4 {
+        font-size: 15px;
+    }
+    .top_form h4 .span1 {
+        font-size: 16px;
+    }
+    .publication_main .top_form {
+        top: 50%;
+        height: auto;
+    }
+    .padding-on-top-g {
+        padding-top: 0em;
+    }
+    .carousel-item img {
+        width: 135%;
+        float: right;
+    }
+    .top_form {
+        top: 37px !important;
+        left: 0;
+    }
+}

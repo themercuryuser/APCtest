@@ -1,0 +1,109 @@
+#offcanvas-menu.toggled {
+    transform: translateX(0);
+}
+
+#offcanvas-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background: #20264bf7;
+    transform: translateX(280px);
+    transition: 0.5s;
+    z-index: 99999;
+}
+
+.menu-wrapper {
+    height: 100%;
+    overflow: auto;
+    padding-top: 60px;
+}
+
+.menu-toggle i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #20264b;
+    cursor: pointer;
+    color: #fff;
+}
+
+.menu-toggle {
+    position: fixed;
+    top: 9px;
+    transition: 0.1s;
+    z-index: 9999;
+    right: 10px;
+}
+
+.menu-toggle.sticky {
+    position: fixed;
+    top: 9px;
+    right: 10px;
+    text-align: left;
+    /* padding: 10px 10px 10px 0; */
+    border-radius: 0;
+}
+
+#offcanvas-menu .close-menu {
+    position: absolute;
+    top: 15px;
+    margin-left: -20px;
+}
+
+#offcanvas-menu .close-menu i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+    background-color: #cf1f2a;
+}
+
+#offcanvas-menu .menu-wrapper li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border-bottom: 1px solid #b7becd;
+    padding: 10px 17px;
+    display: block;
+}
+
+#offcanvas-menu .menu-wrapper .sub-menu {
+    background: #070a1da1;
+}
+
+
+/* #offcanvas-menu .menu-wrapper li ul {
+  display: none;
+} */
+
+#offcanvas-menu .menu-wrapper li .sub-menu a {
+    padding-left: 32px;
+}
+
+
+/* #offcanvas-menu .menu-wrapper li ul {
+  display: none;
+} */
+
+.m-0 {
+    margin: 0;
+}
+
+#offcanvas-menu .menu-wrapper li a.active {
+    color: #48c7ec;
+}
+
+.collapse-btn {
+    display: block;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+}
